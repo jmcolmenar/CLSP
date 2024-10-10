@@ -1,0 +1,35 @@
+# Description of the instance:
+# J number of parts
+# K Number of machines
+# T Number of periods (weeks)
+# Production rate of part j in machine k, r[j,k] matrix. If a machine k is not able to produce part j, the value is 0.
+# Changeover time from part i to part j, c[i,j] matrix.
+# Inventory position of part j in period t matrix.
+# Capacity (number of hours) of machine k in period t matrix.
+# Priority for producing part j on machine k matrix. If p[k,j] = 0, then machine k is the preferred machine for part j.
+# --- If k is the second preferred machine for producing part j, then p[k,j] = 1, and so on.
+
+5
+1
+5
+360
+240
+120
+360
+300
+0 3 3 10 10
+3 0 3 10 10
+3 3 0 10 10
+10 10 10 0 3
+10 10 10 3 0
+1300 -1800 -5800 -5800 -8200
+1200 400 -1400 -3600 -7800
+-1200 -2400 -4800 -7200 -18000
+6400 4410 -1750 -2150 -3500
+1500 -900 -1800 -3500 -7000
+75 75 75 75 75
+0
+0
+0
+0
+0
