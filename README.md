@@ -53,11 +53,20 @@ A blank line is needed after the header.
 Consider citing our paper if used in your own work:
 
 ### DOI
-https://doi.org/XXXXXXX
+[https://doi.org/10.1016/j.cie.2024.110634](https://doi.org/10.1016/j.cie.2024.110634)
 
 ### Bibtex
 ```bibtex
-@article{
-...
+@article{COLMENAR2024110634,
+title = {Changeover minimization in the production of metal parts for car seats},
+journal = {Computers & Industrial Engineering},
+pages = {110634},
+year = {2024},
+issn = {0360-8352},
+doi = {https://doi.org/10.1016/j.cie.2024.110634},
+url = {https://www.sciencedirect.com/science/article/pii/S0360835224007563},
+author = {J. Manuel Colmenar and Manuel Laguna and Raúl Martín-Santamaría},
+keywords = {Lot sizing, Multi-period production scheduling, Nonidentical parallel machines, Metaheuristic optimization},
+abstract = {We tackle a capacitated lot-sizing and scheduling problem (CLSP) with the main objective of minimizing changeover time in the production of metal parts for car seats. Changeovers occur when a machine (or production line) is reconfigured to produce a different product or part, leading to production downtime and loss of efficiency. In this study, we first provide a mixed-integer programming (MIP) formulation of the problem. We test the limits of solving the problem with commercial mathematical programming software. We also propose two approaches to tackle instances found in practice for which the mathematical programming model is not a viable solution method. Both approaches are based on partitioning the entire production of a part into production runs (or work slots). In the first approach, the work slots are assigned to machines and sequenced by a metaheuristic that follows the search principles of the GRASP (greedy randomized adaptive procedure) and VNS (variable neighborhood search) methodologies. In the second approach, we develop a Hexaly Optimizer (formerly known as LocalSolver) model to assign and sequence work slots. The study provides insights into how to minimize changeovers and improve production efficiency in metal parts manufacturing for car seats. The findings of this study have practical implications for the auto-part manufacturing industry, where efficient and cost-effective production is critical to meet the demands of the market.}
 }
-
+```
