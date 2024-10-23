@@ -1,4 +1,4 @@
-# [CLSP](https://doi.org/XXXXX)
+# [CLSP](https://doi.org/10.1016/j.cie.2024.110634)
 Capacitated Lotsizing and Scheduling Problem, published in Computers & Industrial Engineering journal as "Changeover minimization in the production of metal parts for car seats"
 
 
